@@ -1,0 +1,49 @@
+.container {display: flex;
+          width:1220px;
+           height:65px;
+           padding-top: 21.5px; 
+            margin-left: auto;
+            margin-right: auto;
+             margin-top: 53px;
+            vertical-align: middle;
+            
+           
+              }
+.list {display: flex;
+      vertical-align:top;
+      margin-left: 195px;
+       }
+
+.div-image { padding-top: 13.5px;}
+.logo {width: 200px;
+        height: 38px;
+        vertical-align: middle;
+       }
+.list-a {display: flex;
+    font-size: 18px;color: #37393F;
+     line-height: 21.78px;
+     margin-top: 21.5px; 
+         }
+.home {margin-right:35px;}
+.about {margin-right: 35px;}
+.services{ margin-left: 35px;
+         margin-right: 35px;}
+.blog {margin-right: 35px;}
+
+.listtext {font-size: 18px;
+        padding-top: 21px;
+        padding-left: 35px;
+        padding-bottom: 22px;
+        padding-right: 35px;
+           }
+.divtext {display: flex;
+         width: 184px;
+         height:65px ;
+          background-color: #6B77E5;
+          color: #FFFFFF;
+          font-size: 18px;
+          line-height: 21.87px;
+          margin-left: 40px;
+          vertical-align:top;
+          }
+.main-block {}
