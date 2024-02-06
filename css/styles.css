@@ -1,11 +1,16 @@
+
 .container {display: flex;
-          width:1220px;
+           width:1220px;
            height:65px;
            padding-top: 21.5px; 
            margin-left: auto;
            margin-right: auto;
-             margin-top: 53px;
-            vertical-align: middle;}
+           margin-top: 53px;
+           margin-bottom: 21.5px;
+           vertical-align: top;
+           display: flex;
+           justify-content: center;
+            }
 .list {display: flex;
       vertical-align:top;
       margin-left: 195px;}
@@ -14,8 +19,8 @@
 .logo {width: 200px;
         height: 38px;
         vertical-align: middle; }
-.list-a {display: flex;
-    font-size: 18px;color: #37393F;
+.list-a {
+     font-size: 18px;color: #37393F;
      line-height: 21.78px;
      margin-top: 21.5px; }
 .home {margin-right:35px;}
@@ -46,28 +51,25 @@
              margin-top: 156px;
              margin-left: auto;
              margin-right: auto;
-             >
-             position: relative;}
+             position:relative;}
 .text-div { width:283px;
            height: 86px;
-          background-color: white;
-            margin-left: 468.50px;}
+           background-color: white;
+           margin-left: 468.50px;}
 .title4 {font-size: 18px;
          line-height: 21.78px;
          color: #37393F;
-        padding-left: 82px;
-        padding-bottom: 16px;
-        font-family: 'Inter', sans-serif;}
+         padding-left: 82px;
+         padding-bottom: 16px;
+         font-family: 'Inter', sans-serif;}
 .title1 { font-size: 40px;
-       font-family: 'Poppins', sans-serif;
-       line-height: 48.4px;
+        font-family: 'Poppins', sans-serif;
+        line-height: 48.4px;
         text-align:Center; }
 .three-block { display: flex;
              width: 1220px;
-              height: 383px;
-          
-             margin-top: 41px;
-            
+             height: 383px;
+             margin-top: 41px;  
             }
 .block1 { width:386px ;
           height:383px ; 
@@ -101,32 +103,47 @@
        font-family: 'Inter', sans-serif;
        margin-top:37px;
        margin-left:94.50px;
-      margin-right: auto; }
+       margin-right: auto; }
 .fa-calendar {width: 43px;
       height: 43px;
       color: #FFFFFF;
-      padding-top: 21.22px;}
-.icons { color:#40DDB6;
+      font-size: 30px;
+      padding-top: 21.22px;
+      padding-left: 21.22px;
+     }
+.icons { background-color: #40DDB6;
         width: 72px;
         height: 72px;
-       margin-top:10px ;
-        margin-left: 157px;}
+        border-radius: 50%;
+        margin-top:10px ;
+        margin-left: 157px;
+        }
+.icons-middle {background-color: #6B77E5;
+        width: 72px;
+        height: 72px;
+        border-radius: 50%;
+        margin-top:10px ;
+        margin-left: 157px;
+       }
 .consultext
        { font-size: 25px;
-      line-height: 31.75px;
-      font-family: 'Poppins', sans-serif;
+       line-height: 31.75px;
+       font-family: 'Poppins', sans-serif;
        padding-left:67.50px ;}
 .fa-puzzle-piece {width: 43px;
-          height: 43px;
-          color: #FFFFFF;
-          padding-top: 21.22px;}
-.servicetext  { font-size: 25px;
+        height: 43px;
+        color: #FFFFFF;
+        font-size: 30px;
+        padding-top: 21.22px;
+        padding-left: 21.22px;
+          }
+.servicetext {font-size: 25px;
             line-height: 31.75px;
             font-family: 'Poppins', sans-serif;
             padding-left:42.50px ;
             margin-top: 58px;}
 .Servicediv {width: 300px;
-         height: 185px;}
+            height: 185px;}
 .servicetext2 {font-size: 18px;
           line-height: 26.31px;
           color:#7D7D7D ; 
@@ -134,28 +151,34 @@
           text-align: center;
           margin-top: 16px;}
 .fa-check { width: 43px;
-          height: 43px;
-          color: #FFFFFF;
-           padding-top: 21.22px; }  
-.green-div {width: 1920px;
-            height: 557px;
-             margin-top: 60px;
-            background-color:#40DDB6;
-           padding-top: 143px;}
+        height: 43px;
+        color: #FFFFFF;
+        font-size: 30px;
+        padding-top: 21.22px;
+        padding-left: 21.22px;}  
+.green-div {position: relative;
+        width: 1920px;
+        height: 557px;
+        margin-top: 60px;
+           }
+.image-green {width: 1920px;
+              height: 557px;
+              position: absolute; 
+            }
 .green-text { width: 551px;
              height: 270.50px;
-            margin-left: auto;
-            margin-right: auto;
-            
-            ;}
+             position: absolute ;
+             top: 50%;
+             margin-left: 665px;
+             transform: translatey(-50%)}
 .title3 { font-size: 18px;
-         color: #37393F;
-         font-family: 'Inter', sans-serif;
-         line-height: 21.78px;
-           margin-left: 204.50px;}
+          color: #37393F;
+          font-family: 'Inter', sans-serif;
+          line-height: 21.78px;
+          margin-left: 204.50px;}
 .presentation-title { font-size: 40px;
-                     text-align: center;
-                     font-family: 'Poppins', sans-serif;
+                    text-align: center;
+                    font-family: 'Poppins', sans-serif;
                     margin-top: 16px; }
 .green-block-text { font-size: 18px;
                    font-family: 'Inter', sans-serif;
@@ -165,30 +188,76 @@
                    margin-top: 21px;
                    }  
 .div-absolute    { width: 64.5px;
-                     height: 64.5px;
-                    background-color:#6B77E5 ;
-                    margin-left: 223.25px;
-                    margin-top: 47px;
-                    position: relative;
+                   height: 64.5px;
+                   background-color:#6B77E5 ;
+                   border-radius: 50%;
+                   left: 40%;
+                   display: flex;
+                   justify-content: center;
+                   align-items: center;          
+                   position: absolute;
+                   margin-top: 47px;
+                   transform: translatey(-50% ,-50% )
                    }              
 .div-relative {color: white;
-           margin-top: 47px;
-            margin-left: 246.33px;
-            margin-right: 244.33px;
-            width: 20.34px;
-             height:64.5px;
-             position: absolute;
-            }     
-.last-div-block { background-color: yellow;
+               font-size: 30px;
+               top: 50%;
+               left: 50%;
+               transform: translate (-50%, -50% )
+                }     
+.last-div-block { 
             display: flex;
             width: 1220px;
-             height: 659px;
-            margin-left: auto;
-            margin-right: auto;
-            margin-top: 130px;}   
-.last-div1 {  width:386px ;
             height: 532px;
-             background-color: #40DDB6;} 
+            margin-left: 348px;
+            margin-right: 352px;
+            margin-top: 41px;
+            position: relative;
+        }   
+.last-div1 {  width:386px ;
+             height: 532px;
+             background-color: #40DDB6;display: inline-block;
+             position: relative;
+             } 
 .middle {margin-left:31px ;
          margin-right: 31px;}  
-.last-div1       {margin-top: 127px;}   
+
+.first-image { width:386px ;
+             height:532px ;
+             position: relative;}
+.name-position  {position: absolute; top:396px;
+        left: 22px;    
+        background-color: #FFFFFF;
+        width: 341px;
+        height: 114px;}    
+.position  {font-family: 'Inter', sans-serif;
+        font-size: 18px;  color:#7D7D7D;
+        margin-top: 4px;
+        padding-left: 92px;}
+.name {font-size: 25px;
+        line-height: 37.5px;
+        font-family: 'Poppins', sans-serif;
+        padding-left: 69px;
+        padding-top: 24px ;}
+
+.last-div-text {width:283px;
+         height: 86px;
+         background-color: white;
+         margin-top: 130px;
+         margin-left: 784px; } 
+.team {font-size: 18px;   
+         margin-left: 132px; }
+.experts { font-size: 40px;
+           font-family: 'Poppins', sans-serif;
+           line-height: 48.4px;
+           width: 348px;
+            margin-top: 16px; }  
+.designer { padding-left: 132.50px; }    
+
+.arrow-sign {font-size: 15px;}
+
+header { position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 1;
+background-color: #FFFFFF;}
