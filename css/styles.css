@@ -220,7 +220,9 @@
              position: relative;
              } 
 .middle {
-          background-color: #6B77E5;}  
+          background-color: #6B77E5;
+          margin-left:31px ;
+          margin-right: 31px;}  
 
 .first-image { width:386px ;
              height:532px ;
