@@ -260,3 +260,5 @@ header { position: fixed;
         width: 100%;
         z-index: 1;
 background-color: #FFFFFF;}
+.middle-image {margin-left:31px;
+               margin-right: 31px;}
