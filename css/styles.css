@@ -48,14 +48,15 @@
 .main-block { width: 1220px;
               height:510px;
              
-             margin-top: 156px;
+             margin-top: 170px;
              margin-left: auto;
              margin-right: auto;
              position:relative;}
 .text-div { width:283px;
            height: 86px;
            background-color: white;
-           margin-left: 468.50px;}
+           margin-left: 468.50px;
+            margin-top: 160px;}
 .title4 {font-size: 18px;
          line-height: 21.78px;
          color: #37393F;
@@ -219,10 +220,6 @@
              background-color: #40DDB6;display: inline-block;
              position: relative;
              } 
-.middle {
-          background-color: #6B77E5;
-          margin-left:31px ;
-          margin-right: 31px;}  
 
 .first-image { width:386px ;
              height:532px ;
